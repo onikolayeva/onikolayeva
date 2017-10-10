@@ -1,5 +1,11 @@
 html,body{height:100%;}
-.carousel,.item,.active{height:100%;}
-.carousel-inner{height:100%;}
+.item,.active{height:100%;}
+.carousel {
+	 height: 100%;
+     width:100% !important; 
+     overflow: hidden !important; 
+     right:0 !important; 
+}
+.carousel-inner{height:75%;}
 
 .container{padding: .5cm 2cm 5cm 2cm;}
