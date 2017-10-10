@@ -8,4 +8,7 @@ html,body{height:100%;}
 }
 .carousel-inner{height:75%;}
 
-.container{padding: .5cm 2cm 5cm 2cm;}
+.container{
+	padding: 50px 30px 50px 80px;
+	background-color: #FF5733;
+	}
