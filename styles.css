@@ -8,6 +8,8 @@ html,body{height:100%;}
 }
 .carousel-inner{height:100%;}
 
+.thumbnail{width: 100%}
+
 .jumbotron{padding: 50px 20px 50px 100px;}
 
 /* fixing issue in the mobile nav bar */
