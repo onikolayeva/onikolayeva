@@ -13,7 +13,10 @@ html,body{height:100%;}
 }
 .carousel-inner{height:100%;}
 
-.jumbotron{padding-bottom:50px;}
+.jumbotron{margin: 20px,20px,20px,20px;
+	padding-bottom:50px;
+	padding-left: 20px;
+	padding-right: 20px;}
 
 /* fixing issue in the mobile nav bar */
 .navbar {
