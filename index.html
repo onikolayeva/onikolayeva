@@ -12,6 +12,11 @@
 	<!-- Latest compiled JavaScript -->
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 	<link rel="stylesheet" href="styles.css">
+
+	<!-- Pay Pal -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-bottom">
@@ -30,7 +35,7 @@
   		</div>
 	</nav> 
 
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel" href="#back2top">
   <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -90,6 +95,7 @@
 
 <div class="jumbotron">
 	<h2 href="#interest">Interests</h2>
+	<h3>Books</h3>
 	<p>
 		I start too many books at the same time and work through reading them. Currently reading :
 	</p> 
@@ -97,7 +103,7 @@
     <div class="col-md-3">
       <div class="thumbnail">
  
-          <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcSkyMhMGxS0J9ilkBAyndukoLrx9SVrWeWGW8ChMZELEGD0lcjp" style="width: 100%">
+          <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcSkyMhMGxS0J9ilkBAyndukoLrx9SVrWeWGW8ChMZELEGD0lcjp" style="width: 100%; height:100%">
           <div class="caption">
             <p>Against Everything: Essays by Mark Greif</p>
           </div>
@@ -106,7 +112,7 @@
     </div>
     <div class="col-md-3">
       <div class="thumbnail">
-          <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcRd1hqSRFxV58Mzgd4XYZoTUUugcXNW9ZTwwlhrtRb4hm1YaiSX" style="width: 100%">
+          <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcRd1hqSRFxV58Mzgd4XYZoTUUugcXNW9ZTwwlhrtRb4hm1YaiSX" style="width: 100%; height:100%">
           <div class="caption">
             <p>The Wind Up Bird Chronicals by Haruki Murakami</p>
           </div>
@@ -114,7 +120,7 @@
     </div>
     <div class="col-md-3">
       <div class="thumbnail">
-          <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcRzR5DwaRPMatr65ZnbEqIe-6U0BrQm-RR6UDbv3od6PzBQRWDa" style="width: 100%">
+          <img src="http://t1.gstatic.com/images?q=tbn:ANd9GcRzR5DwaRPMatr65ZnbEqIe-6U0BrQm-RR6UDbv3od6PzBQRWDa" style="width: 100%; height:100%">
           <div class="caption">
             <p>Modern Romance by Aziz Ansari</p>
           </div>
@@ -123,16 +129,67 @@
     <div class="col-md-3">
       <div class="thumbnail">
       <a href="http://natureofcode.com/">
-          <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcRqAExE6Kq28MutRVY4o8eVzm_GxXro5KnIIPRorYqdFuHLILDS" style="width: 100%">
+          <img src="http://t3.gstatic.com/images?q=tbn:ANd9GcRqAExE6Kq28MutRVY4o8eVzm_GxXro5KnIIPRorYqdFuHLILDS" style="width: 100%; height:100%">
           <div class="caption">
             <p>Nature of Code</p>
           </div>
           </a>
       </div>
     </div>
+    <p>I have a running list of books that I would like to read. Link to attached document coming soon. Feel free to give me recommendations or physical books to read.</p>
   </div>
+  <h3>Painting</h3>
+  <p>I have been dabbling in using micropigment ink and watercolors to create an array of dancers. My newest series explores dandelion puffs and the wildness yet control of art and nature. I am also interested in learning and create more in the processing language. </p>
+    <div class="row">
+    <div class="col-md-3">
+      <div class="thumbnail">
+ 
+          <img src="puff1.jpg" style="width: 100%; height:100%">
+ 
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <img src="puff2.jpg" style="width: 100%; height:100%">
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+          <img src="dancer1.jpg" style="width: 100%; height:100%">
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="thumbnail">
+
+          <img src="dancer2.jpg" style="width: 100%; height:100%">
+
+      </div>
+    </div>
+	</div>
+	<p>In the process of setting up a paypal so if you are interested in a print let me know @ olga . a . nikolayeva at gmail.com</p>
 </div>
-<!--> <p>I've started to channel my sadness and depression into other forms of expression, ie this website.</p> </-->
+<div class="jumbotron">
+	
+</div>
+<div id="paypal-button"></div>
+
+    <script>
+        paypal.Button.render({
+
+            env: 'production', // Or 'sandbox',
+
+            commit: true, // Show a 'Pay Now' button
+
+            payment: function() {
+                // Set up the payment here
+            },
+
+            onAuthorize: function(data, actions) {
+                // Execute the payment here
+           }
+
+        }, '#paypal-button');
+    </script>
 
 </body>
 </html>
