@@ -171,7 +171,7 @@
 <div class="jumbotron">
 <div id="paypal-button"></div>
 </div>
-
+<script src="https://www.paypalobjects.com/api/checkout.js"></script>
     <script>
         paypal.Button.render({
 
@@ -180,11 +180,20 @@
             commit: true, // Show a 'Pay Now' button
 
             payment: function() {
-                // Set up the payment here
+            	return actions.payment.create({
+                payment: {
+                    transactions: [
+                        {
+                            amount: { total: '1.00', currency: 'USD' }
+                        }
+                    ]
+                }
+            });
             },
 
             onAuthorize: function(data, actions) {
-                // Execute the payment here
+            	return actions.payment.execute().then(function(payment) {
+// Execute the payment here
            }
 
         }, '#paypal-button');
