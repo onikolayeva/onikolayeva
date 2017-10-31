@@ -3,20 +3,16 @@ html,body {
 }
 
 /* colors for headings */
-#title {
+h1.title {
 	color: #66D9FF;
 }
 
-#interest {
-	color: #66B2FF;
-}
-
-#books {
-	color: #668CFF;
-}
-
-#painting {
+h2.interest {
 	color: #6673FF;
+}
+
+h3.subinterest {
+	color: #6626FF;
 }
 
 .item,.active{height:100%;
