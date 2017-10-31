@@ -7,12 +7,16 @@ html,body {
 	color: #66D9FF;
 }
 
+#interest {
+	color: #66B2FF;
+}
+
 #books {
 	color: #668CFF;
 }
 
 #painting {
-	color: #6640FF;
+	color: #6673FF;
 }
 
 .item,.active{height:100%;
