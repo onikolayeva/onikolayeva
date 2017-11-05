@@ -4,14 +4,17 @@ html,body {
 
 /* colors for headings  between #66FFFF/#6600FF */
 h1.title {
+	font-weight: bold;
 	color: #66D9FF;
 }
 
 h2.interest {
+	font-weight: bold;
 	color: #6673FF;
 }
 
 h3.subinterest {
+	font-weight: bold;
 	color: #6626FF;
 }
 
