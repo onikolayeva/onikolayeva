@@ -38,8 +38,11 @@ h3.subinterest {
 
 .jumbotron{
 	border-bottom-left-radius: 25px;
-	}
+}
 
+.div{
+	padding: 25px 100px 25px 100px;
+}
 
 /* fixing issue in the mobile nav bar */
 .navbar {
