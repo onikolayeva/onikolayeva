@@ -36,12 +36,9 @@ h3.subinterest {
 .carousel-inner{height:100%;
 	width: 100%;}
 
-.jumbotron{
-	border-bottom-left-radius: 25px;
-}
-
-div{
+div.jumbotron{
 	padding: 25px 100px 25px 100px;
+	border-bottom-left-radius: 25px;
 }
 
 /* fixing issue in the mobile nav bar */
