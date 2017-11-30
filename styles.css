@@ -54,3 +54,50 @@ div.jumbotron{
 main {
   margin-bottom:50px;
 }
+
+/* Social media icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #d1b3ff;
+  color: white;
+}
+
+.fa-twitter {
+  background: #c299ff;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #b380ff;
+  color: white;
+}
+
+.fa-instagram {
+  background: #a366ff;
+  color: white;
+}
+
+.fa-soundcloud {
+  background: #944dff;
+  color: white;
+}
+
+.fa-rss {
+	background: #8533ff;
+	color:white;
+}
