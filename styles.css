@@ -81,10 +81,6 @@ main {
   border-bottom-right-radius: 25px;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
-
 .fa-facebook {
   background: #d1b3ff;
   color: white;
