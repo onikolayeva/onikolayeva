@@ -1,6 +1,6 @@
 html,body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-  background-color: #f2e6ff;
+  background-color: #b366ff;
 }
 
 
@@ -46,6 +46,7 @@ h3.subinterest {
 div.jumbotron{
 	padding: 25px 100px 25px 100px;
 	border-bottom-left-radius: 25px;
+  background: #f2e6ff;
 }
 
 /* fixing issue in the mobile nav bar */
