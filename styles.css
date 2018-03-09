@@ -46,6 +46,7 @@ h3.subinterest {
 div.jumbotron{
 	padding: 25px 100px 25px 100px;
 	border-bottom-left-radius: 25px;
+  border-top-left-radius: 25px;
   background: #f2e6ff;
 }
 
