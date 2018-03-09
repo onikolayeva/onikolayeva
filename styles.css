@@ -1,6 +1,8 @@
 html,body {
 	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #4dffbb;
 }
+
 
 /* colors for headings  between #66FFFF/#6600FF */
 h1.title {
