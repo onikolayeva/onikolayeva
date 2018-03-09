@@ -18,6 +18,11 @@ h3.subinterest {
 	color: #6626FF;
 }
 
+.ital {
+  font size:8;
+  font-style: italic;
+}
+
 .item,.active{height:100%;
 				width: 100%;}
 
