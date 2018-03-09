@@ -12,10 +12,13 @@ div.jumbotron{
   background: #f2e6ff;
 }
 
-.title {
+#nocorner {
+    border-top-left-radius: 0px;
+}
+
+h1.title {
 	font-weight: bold;
 	color: #5900b3;
-  border-top-left-radius: 0px;
 }
 
 h2.interest {
